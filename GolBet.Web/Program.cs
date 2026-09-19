@@ -1,3 +1,4 @@
+// Target framework for the project: .NET 8.0
 using GolBet.Repositories.Data;
 using GolBet.Repositories.Implementations;
 using GolBet.Repositories.Interfaces;
