@@ -19,7 +19,7 @@ public class MatchesController : Controller
         _matchService = matchService;
         _teamService = teamService;
     }
-        
+
     // GET /Matches            -> all matches
     // GET /Matches?status=Scheduled -> filtered board
     public async Task<IActionResult> Index(MatchStatus? status)
